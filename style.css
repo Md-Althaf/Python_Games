@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #222;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    background: #444;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background: #666;
+}
+
+.game-box {
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 20px auto;
+}
+
+.hidden {
+    display: none;
+}
+
+input {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.ttt-board {
+    display: grid;
+    grid-template-columns: repeat(3, 70px);
+    gap: 5px;
+    justify-content: center;
+    margin: 15px auto;
+}
+
+.cell {
+    width: 70px;
+    height: 70px;
+    background: #444;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.cell:hover {
+    background: #555;
+}
+
+#coin {
+    width: 300px;       
+    height: 300px;      
+    margin: 5px auto;  
+    object-fit: contain; 
+    transition: transform 0.3s;
+}
+
+#coin.flipped {
+    transform: rotate(180deg);
+}
