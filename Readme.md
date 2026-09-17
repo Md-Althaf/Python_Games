@@ -33,7 +33,9 @@ It's just a coin that flips
 I used Gemini to create a coin image , and some and js script fixing bugs
 
 ## How to use it 
-Just visit the page and play games or u use Linux pure CLI mode then install python games.py and run it and play games. https://md-althaf.github.io/Python_Games/
+and play 
+
+donwload from the release https://github.com/Md-Althaf/Python_Games/releases/tag/v.1
 
 ## Online_Arcade 
 This is same python games but on webiste with some graphics .
